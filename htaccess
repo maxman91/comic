@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ profile.php?profile_username=$1 
+RewriteRule ^([a-zA-Z0-9_-]+)/$ profile.php?profile_username=$1
+RewriteRule ^([comic]+)/([a-zA-Z0-9_-]+)$ post.php?comic_id=$2
+RewriteRule ^([comic]+)/([a-zA-Z0-9_-]+)/$ post.php?comic_id=$2   
+RewriteRule ^([message]+)/([a-zA-Z0-9_-]+)$ message.php?message_id=$2
+RewriteRule ^([message]+)/([a-zA-Z0-9_-]+)/$ message.php?message_id=$2

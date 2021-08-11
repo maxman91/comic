@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'BubblegumSans-Regular';
+	src: url('../fonts/BubblegumSans-Regular.otf');
+}
+@font-face {
+	font-family: 'Tulia_regular';
+	src: url('../fonts/Tulia_regular.otf');
+}
+
+@font-face {
+	font-family: 'learning_curve_regular_ot_ps';
+	src: url('../fonts/learning_curve_regular_ot_ps.otf');
+}
+
+
+
+
+
+.header {
+	background-color: #800080;
+	margin: 0px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.page {
+	
+	width: 35%;
+	background-color: #ffffff;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.98;
+	margin: auto;
+	text-align: center;
+	min-width: 250px;
+	box-shadow: 1px 1px 5px 5px #b9b7b7;
+	margin-top: 4%;
+}
+
+h2 {
+	
+	margin: 0px;
+	font-size: xx-large;
+	font-family: BubblegumSans-Regular;
+ 	color:  #5f035f;
+}
+
+
+ .instruction {
+ 	font-family: Tulia_regular;
+ 	color:  #ffffff;
+ } 
+
+ img {
+
+	
+	border: 5px solid #5f035f;
+	border-radius: 100px;
+}
+
+.logo {
+ 	font-family: BubblegumSans-Regular;
+ 	color:  #5f035f;
+ 	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	font-size: 70px;
+ }
+
+ h4 {
+ 	font-family: Tulia_regular;
+ 	
+ }
+
+
+ a{
+ 	font-family: Tulia_regular;
+ 	
+ }
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: Tulia_regular;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: Tulia_regular;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: Tulia_regular;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: Tulia_regular;
+}
+
+a:link {
+    color: #5f035f;
+    font-family: BubblegumSans-Regular;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5f035f;
+    font-family: BubblegumSans-Regular;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #800080;
+    font-family: BubblegumSans-Regular;
+    text-decoration: none;
+}
+
+a:active {
+    color: #800080;
+    font-family: BubblegumSans-Regular;
+    text-decoration: none;
+}
+
+input{
+ 	width: 75%;
+	margin: 3%;
+	height: 5%;
+	min-height: 25px;
+ }
+
+ input[type=submit] {
+ 	width: 30%;
+ 	min-width: 150px;
+ 	
+	
+	border-radius: 5px;
+	background-color: #e6e6e6;
+	font-family: BubblegumSans-Regular;
+	font-size-adjust: .6;
+ }
+
+ input label select {
+ 	font-family: Tulia_regular;
+ }
+
+ select:focus, textarea:focus {
+  box-shadow: 0 0 5px #800080;
+  border: 1px solid #800080;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px #800080;
+  border: 1px solid #800080;
+}
+
+
+textarea{
+width: 75%;
+	margin: 3%;
+	
+	min-height: 25px;
+	
+}
+
+label {
+	font-family: Tulia_regular;
+}
